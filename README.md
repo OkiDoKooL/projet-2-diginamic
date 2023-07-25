@@ -14,18 +14,18 @@ Chaque individu de notre jeu représente une commande de tels goodies.
 
 Le client souhaite obtenir des insights très précis sur son activité dont voici le listing non-exhaustif, trié par lots :
 
-      - **Lot1** :
+      - Lot1 :
       
-            1. Obtenir le **nombre de commandes par ville sur le département de la Mayenne (53)** regroupé par objet dont la quantité est supérieure à 5 ; par années depuis 2010.
+            1. Obtenir le nombre de commandes par ville sur le département de la Mayenne (53) regroupé par objet dont la quantité est supérieure à 5 ; par années depuis 2010.
 
-            2. Avoir, pour les 10 clients les plus fidèles depuis 2008 : **le nombre, la moyenne et l'écart-type du nombre de colis par ville** (avec le département affiché).
+            2. Avoir, pour les 10 clients les plus fidèles depuis 2008 : le nombre, la moyenne et l'écart-type du nombre de colis par ville (avec le département affiché).
 
-            3. Une **courbe de croissance par objet** selon les départements de la Mayenne (53), de la Sarthe (72) et du Maine et Loir (49).
+            3. Une courbe de croissance par objet selon les départements de la Mayenne (53), de la Sarthe (72) et du Maine et Loir (49).
 
       Les graphes doivent être transmis au format PDF.
 
 
-      - **Lot2** :
+      - Lot2 :
 
             1. Les 100 meilleures commandes entre 2006 et 2016 avec la ville, le nombre de colis et la somme des "timbrecde".
 
@@ -33,7 +33,7 @@ Le client souhaite obtenir des insights très précis sur son activité dont voi
 
             3. Exporter les résultats des Lots 1 et 2 sous format Excel.
 
-      - **Lot3** :
+      - Lot3 :
 
             Mettre en place une base de données NoSQL por stocker le contenu du fichier .csv et de mettre en oeuvre un moteur de recherche avec ElasticSearch ou Spark pour interroger ce DataWareHouse pour obtenir les résultats des Lots 1 et 2 sans graphe.
 
