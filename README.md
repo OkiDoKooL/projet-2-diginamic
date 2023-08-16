@@ -10,6 +10,8 @@ Il contient des données relatives à un programme de fidélisation : Les client
 
 Chaque individu de notre jeu représente une commande de tels goodies.
 
+Nous avons une problématique volumétrique; et proposerons une solution de stockage des données NoSQL pour que la solution soit pérenne, avec peu de dette technique. Notre choix s'est porté sur Hbase, système de gestion de base de données orientée colonnes, présente dans l'écosystème Hadoop et pré-configuré sur les images dockers qui nous servent de support.
+
 ## Cahier des charges
 
 Le client souhaite obtenir des insights très précis sur son activité dont voici le listing non-exhaustif, trié par lots :
