@@ -14,6 +14,11 @@ Nous avons une problématique volumétrique; et proposerons une solution de stoc
 
 Le jeu de données est disponible à l'adresse suivante : https://diginamic-my.sharepoint.com/personal/cgermain_diginamic_fr/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcgermain%5Fdiginamic%5Ffr%2FDocuments%2FSessions%2Fdata%5Fsources%2Fdataw%5Ffro03%2Ezip&parent=%2Fpersonal%2Fcgermain%5Fdiginamic%5Ffr%2FDocuments%2FSessions%2Fdata%5Fsources&ga=1
 
+Un NoteBook (pas forcément très lisible ici) a été déposé, contenant tous les travaux d'analyse effectués sous Pandas. Ce travail représente la partie préliminaire de notre projet, nous avons élaboré nos mappers ainsi que nos reducers suite à ce travail exploratoire.
+
+Il y a donc un mapper et un reducer pour chaque problématique (sauf pour le lot 2, où nous n'en avons qu'un de chaque), fonctionnels en local.
+Notre interaction avec Hbase (insertion de nos données) a été effectuée avec la librairie Happybase, et disponible dans le fichier .py éponyme !
+
 ## Cahier des charges
 
 Le client souhaite obtenir des insights très précis sur son activité dont voici le listing non-exhaustif, trié par lots :
